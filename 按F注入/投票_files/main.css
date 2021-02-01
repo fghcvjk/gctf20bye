@@ -1,0 +1,56 @@
+/**
+ * By Houfeng
+ * Houfeng@DCloud.io
+ * 登录、设置相关样式
+ * */
+
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    /*-webkit-user-select: none;*/
+    font-family: "微软雅黑" !important;
+    /*background-color: #fffefb;*/
+    /*overflow: hidden;*/
+}
+* {
+    font-family: "微软雅黑" ;
+}
+a,
+p,
+label,
+i,
+strong,
+span,
+li,
+ul,
+div {
+    /*cursor: default;*/
+    /*outline: none;*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input::-ms-clear {
+    display: none !important;
+}
+/*隐蔽文本框叉子*/
+
+input::-ms-reveal {
+    display: none !important;
+}
+nav,section,header,footer,aside{
+    display: block;
+}
+/*隐蔽暗码框小眼睛*/
+
+address,i,em{
+    font-style: normal;
+}
+button{
+	cursor: pointer;
+}

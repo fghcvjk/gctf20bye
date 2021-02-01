@@ -1,0 +1,147 @@
+html{
+    /*font-size: 26.67vw;*/
+    font-family: "微软雅黑";
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.headline-bg.index-headline-bg{
+    height:4rem;
+    width: 100%;
+    max-width: 18.14814815rem/* 980px */;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.headline-content{
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.circle-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 1rem/* 100px */;
+    height: 1rem/* 100px */;
+    margin: auto;
+    background-color: #f0f0f0
+}
+.headline-content-img img{
+    width: 100%;
+    height: 100%;
+}
+.headline-content-txt{
+    line-height: 50px;
+    color: #472233;
+}
+.headline-content-txt i{
+    color: #62b194;
+    padding: 0 10px;
+}
+.top{
+    max-width: 9.8rem/* 980px */;
+    width: 100%;
+    height: 4rem/* 400px */;
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    -webkit-overflow-scrolling : touch;
+    margin: auto;
+    background:url(../img/bg.jpg)  no-repeat; 
+    background-size: 100% 100%;
+    /*flex: 1;*/
+}
+/*列表*/
+.center{
+    overflow: scroll;
+    -webkit-overflow-scrolling : touch;
+    flex: 5;
+    max-width: 9.8rem;
+    width: 100%;
+    margin: auto;
+}
+.toupiao-list{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.1rem 0.3rem;
+    border-bottom:1px solid #f0f0f0; 
+
+}
+.toupiao-list .circle-img{
+    margin: 0;
+}
+.toupiao-num{
+    color: #666;
+}
+.toupiao-name{
+    color: #e46e7a;
+}
+.toupiao-btn{
+    background-color: #e46e7a;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+/*底部*/
+.bottom{
+    max-width: 9.8rem;
+    width: 100%;
+    height: 2rem;
+    margin: auto;
+    overflow: hidden;
+    -webkit-overflow-scrolling : touch;
+    font-size:16px;
+    background-color: #e46e7a;
+    color: #ffffff;
+
+}
+.bottom .title{
+        font-weight: bold;
+        padding: 5px;
+        padding-top: 0;
+        border-right: 1px dotted  #fff;
+        display: inline-block;
+}
+.bottom .name{
+    font-size: 14px;
+    margin-left: 10px
+}
+.bottom .zhuban{
+    padding: 0 20px 0 20px;
+    border-bottom: 1px dotted #fff;
+}
+.bottom .chengban{
+    padding: 0 20px 0 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.content-right{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.erweima{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 5px;
+}
+.erweima img{
+    height: 100%;
+    width: 100%;
+}
+.last{
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+}
